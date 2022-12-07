@@ -17,5 +17,12 @@ if (lang=="ru") {
     let arr = ['monday', 'tuesday','wednesday', 'thursday', 'friday', 'saturday', 'sunday']
 }
 alert(`${arr}`)
-
+// задача 3
+ let num1 = prompt("Введите число")
+ let num2 = prompt ("Введите число")
+ if (num1>num2){
+    alert(`Наибольшее ${num1}`)
+ } else {
+    alert(`Наибольшее ${num2}`)
+ }
 
